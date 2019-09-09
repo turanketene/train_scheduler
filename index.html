@@ -47,30 +47,38 @@
                 </div>
               </div>
               <br><br>
-                <div class="row">
-                    <form class="col-md-12" id="form">
-                    <label><h2>Add Train</h2></label>
-                        <div class="form-group">
-                            <label for="employeeName">Train Name:</label>
-                            <input type="text" class="form-control" id="trainName">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Add Train</h3>
                         </div>
-                        <div class="form-group">
-                            <label for="role">Destination:</label>
-                            <input type="text" class="form-control" id="destination">
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="trainName">Train Name:</label>
+                                    <input type="text" class="form-control" id="train-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="destination">Destination:</label>
+                                    <input type="text" class="form-control" id="train-destination" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="startYear">First Train Time (military time): </label>
+                                    <input type="text" class="form-control" placeholder="HH:MM" id="train-time" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="endYear">Frequency (minutes)</label>
+                                    <input type="text" class="form-control" id="time-freq">
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <button type="button" id="btn-add" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span> Submit</button>
+                                </div>
+                            </form>
                         </div>
-                        <div class="form-group">
-                            <label for="date">First Train Time (military time): </label>
-                            <input type="text" class="form-control" id="firstTime" placeholder="HH:MM">
-                        </div>
-                        <div class="form-group">
-                            <label for="rate">Frequency (minutes):</label>
-                            <input type="text" class="form-control" id="frequency">
-                        </div>
-                        <button class="btn btn-primary" id='submit-train'>Submit</button>                
-                    </form>
+                    </div>
                 </div>
-            </div>
-        </div>  
         <script src="assets/javascript/logic.js"></script>
         </body>
     </head>
