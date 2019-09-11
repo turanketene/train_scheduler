@@ -13,11 +13,14 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <!-- CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Moment.js link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
         <body>
         <div class="container">
             <div class="jumbotron jumbotron-fluid">
                     <h1 class="display-4" style="text-align: center">The Train Scheduler</h1>
-                    <p class="lead" style="text-align: center">Add your own train to see when it'll arrive!</p>
+                    <p class="lead" style="text-align: center">Up-to-Date Train Information and Scheduler</p>
+                    <p id="currentTime"></p>
             </div>
         <div class="container">
               <div class="row">
@@ -79,8 +82,8 @@
                 </div>
             </div>
         </div>
+        <!-- Link to logic.js file -->
         <script src="assets/javascript/logic.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
         </body>
     </head>
 </html>
