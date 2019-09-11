@@ -1,0 +1,21 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1515165562839-978bbcf18277?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    background-size: cover;
+}
+#currentTime {
+    text-align: center;
+    font-size: 2em;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+h1 {
+    font-family: 'Roboto Slab', serif;
+}

@@ -59,6 +59,9 @@ database.ref().on("child_added", function(childSnapshot) {
     newrow.append($("<td class='text-center'>" + minToArrival + "</td>"));
 
     $("#train-table-rows").append(newrow);
-
 });
+// Reload page function
+setInterval(function() {
+    window.location.reload();
+  }, 60000);
 
