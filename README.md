@@ -8,7 +8,7 @@ In this assignment, we are creating a train schedule application that uses fireb
 ## Sample view
 
 ![Screenshot of train schedule]
-(/assets/images/train-schedule-screenshot)
+(train_scheduler/assets/images/train-schedule-screenshot.png)
 
 ## Built With
 
