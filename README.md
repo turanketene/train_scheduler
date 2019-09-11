@@ -10,6 +10,7 @@ In this assignment, we are creating a train schedule application that uses fireb
 ![Screenshot of train schedule]
 (train_scheduler/assets/images/train-schedule-screenshot.png)
 
+
 ## Built With
 
 * HTML5
